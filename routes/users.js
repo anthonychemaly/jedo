@@ -318,7 +318,7 @@ router.get('/password/reset', (req, res)=>{
     
       let info =  transporter.sendMail({
         from: '"Jedo" <team@jedo.app', // sender address
-        to: "elmirnicolas@gmail.com", // list of receivers
+        to: "anthonychemalyus@gmail.com", // list of receivers
         subject: "Password rescue", // Subject line
         text: "Here's your reset password link", // plain text bodyss
       },(err,data)=>{
